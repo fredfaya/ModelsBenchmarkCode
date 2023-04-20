@@ -1,0 +1,16 @@
+artifact_uri: file:///D:/Documents/Stage%20PFE/Projet/Codes/BenchmarkCodes/mlruns/529053560302357396/b6a6b56b3786470aad65407e535f5779/artifacts
+deleted_time: 1681997045637
+end_time: 1681994367726
+entry_point_name: ''
+experiment_id: '529053560302357396'
+lifecycle_stage: deleted
+run_id: b6a6b56b3786470aad65407e535f5779
+run_name: default_K-Means_with_StandardScaler
+run_uuid: b6a6b56b3786470aad65407e535f5779
+source_name: ''
+source_type: 4
+source_version: ''
+start_time: 1681994361781
+status: 4
+tags: []
+user_id: ADMIN

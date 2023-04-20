@@ -1,0 +1,3 @@
+[('num', Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='most_frequent')),
+                ('standardscaler', StandardScaler())]), Index(['bilan', 'montant_signe', 'diff_ope_val'], dtype='object')), ('cat', Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='most_frequent')),
+                ('onehotencoder', OneHotEncoder(handle_unknown='ignore'))]), Index(['lib_etendu', 'signe', 'num_oper'], dtype='object'))]

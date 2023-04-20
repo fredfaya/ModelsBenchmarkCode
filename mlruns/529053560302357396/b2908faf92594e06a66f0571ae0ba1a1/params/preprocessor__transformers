@@ -1,0 +1,12 @@
+[('num', Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='most_frequent')),
+                ('standardscaler', StandardScaler())]), Index(['lib_etendu', 'bilan', 'montant_signe', 'num_oper', 'diff_ope_val'], dtype='object')), ('cat', Pipeline(steps=[('simpleimputer', SimpleImputer(strategy='most_frequent')),
+                ('onehotencoder', OneHotEncoder(handle_unknown='ignore'))]),      signe
+0        -
+1        -
+2        +
+3        -
+4        -
+...    ...
+9995     +
+9996     -
+99...

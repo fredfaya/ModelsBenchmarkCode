@@ -1,0 +1,5 @@
+{
+  "calinski_harabasz_score_data": "calinski_harabasz_score(X=data, labels=predictions)",
+  "davies_bouldin_score_data": "davies_bouldin_score(X=data, labels=predictions)",
+  "silhouette_score_data": "silhouette_score(X=data, labels=predictions)"
+}

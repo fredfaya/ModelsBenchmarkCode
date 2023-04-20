@@ -1,0 +1,24 @@
+artifact_path: model
+flavors:
+  python_function:
+    env:
+      conda: conda.yaml
+      virtualenv: python_env.yaml
+    loader_module: mlflow.sklearn
+    model_path: model.pkl
+    predict_fn: predict
+    python_version: 3.10.4
+  sklearn:
+    code: null
+    pickled_model: model.pkl
+    serialization_format: cloudpickle
+    sklearn_version: 1.2.2
+mlflow_version: 2.3.0
+model_uuid: 8354dd55d672444a96d8edf9647e0da6
+run_id: cacce6b30dea4ded994f0814fe8b9764
+signature:
+  inputs: '[{"name": "lib_etendu", "type": "long"}, {"name": "bilan", "type": "long"},
+    {"name": "montant_signe", "type": "double"}, {"name": "signe", "type": "long"},
+    {"name": "num_oper", "type": "long"}, {"name": "diff_ope_val", "type": "double"}]'
+  outputs: '[{"type": "tensor", "tensor-spec": {"dtype": "int32", "shape": [-1]}}]'
+utc_time_created: '2023-04-20 13:05:37.911034'

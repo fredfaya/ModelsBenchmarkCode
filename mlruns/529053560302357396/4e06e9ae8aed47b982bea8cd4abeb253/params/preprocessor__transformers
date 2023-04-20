@@ -1,0 +1,1 @@
+[('num', Pipeline(steps=[('standardscaler', StandardScaler())]), Index(['bilan', 'montant_signe', 'diff_ope_val'], dtype='object')), ('cat', Pipeline(steps=[('onehotencoder', OneHotEncoder())]), Index(['lib_etendu', 'signe', 'num_oper'], dtype='object'))]

@@ -1,0 +1,8 @@
+[('preprocessor', ColumnTransformer(transformers=[('num',
+                                 Pipeline(steps=[('simpleimputer',
+                                                  SimpleImputer(strategy='most_frequent')),
+                                                 ('standardscaler',
+                                                  StandardScaler())]),
+                                 Index(['lib_etendu', 'bilan', 'montant_signe', 'signe', 'num_oper',
+       'diff_ope_val'],
+      dtype='obj...
